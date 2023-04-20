@@ -13,7 +13,6 @@
           <script src="https://cdn.lordicon.com/ritcuqlt.js"></script>
           <script src="https://cdn.lordicon.com/libs/frhvbuzj/lord-icon-2.1.0.js"></script>
 
-
 </head>
 <body>
 
@@ -154,6 +153,29 @@
                   </div>
 
 
+          <div class="contuiner activez">
+                    <div class="chat-header">
+                              <div class="chatlogo">
+                                        <img src="https://ozonetel.com/wp-content/uploads/2021/02/voicebot.jpg" alt="">
+                              </div>
+                              <div class="chat-title">Let's Chat</div>
+                    </div>
+                    <div class="chat-body">
+                      <div class="loading hide">
+                        <div class="circle circle1"></div>
+                        <div class="circle circle2"></div>
+                        <div class="circle circle3"></div>
+                      </div>
+                    </div>
+                    <div class="chat-input">
+                              <div class="input-sec">
+                                        <input id="txtInput" type="text" placeholder="type here" autofocus style="border:none; outline: none; padding-left: 2px;">
+                              </div>
+                              <div class="send">
+                                        <img src="images/send.svg" alt="send">
+                              </div>
+                    </div>
+          </div>
 
 
 
@@ -180,13 +202,14 @@
                     $(".popup").toggleClass("activez");
           });
           $("#connect").on('click', ()=>{
-                    $(".popup").toggleClass("activez");
+                    $(".contuiner").toggleClass("activez");
           });
 
 
 
 </script>
-<script src="app.js"></script>
+<script src="app.js"  defer></script>
+<script src="response.js" defer></script>
 </body>
 </html>
 
