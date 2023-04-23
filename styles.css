@@ -41,6 +41,7 @@ body
           color: white;
           font-size:smaller;
           width: 100%;
+          overflow-x: hidden;
 
 }
 
@@ -489,4 +490,17 @@ a {
   left: 13px
 
 
+}
+
+.material-icons-sharp {
+  font-size: 40px;
+  color: #000;
+  padding: 10px;
+  background: white ;
+  border-radius: 50%;
+}
+
+.material-icons-sharp:hover {
+  background-color: greenyellow;
+  cursor: pointer;
 }
