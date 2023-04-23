@@ -70,6 +70,7 @@ p {
           justify-content: center;
           text-align: center;
           padding: 10px 20px;
+          padding-top: 60px;
 }
 .starting-info p{
           padding:2px
@@ -118,6 +119,7 @@ p {
 .contacts
 {
           margin-bottom: 30px;
+          margin-top: 150px;
 }
 .contact-info {
           display: flex;
@@ -140,8 +142,11 @@ p {
 }
 .social-medias
 {
-          margin: 70px auto 0;
+          margin: 250px auto 0;
           padding: 10px 0 0 0;
+          display: flex;
+          justify-content: center;
+
 }
 .social-medias ul
 {
@@ -221,14 +226,6 @@ a:hover
                     color:white;
           }
 
-          button{
-                    width:180px;
-                    position:absolute;
-                     right: 20%;
-                     color:rgb(244, 235, 235);
-                    box-shadow: none;
-          
-          }
           .contacts.container p{
                     position: absolute;
                      color:white;
@@ -245,19 +242,17 @@ a:hover
           .blueoutline{
                     padding:0
           }
-          .row div{
-            
-            min-height: 50px;
-            max-height: 50px;
-            max-width: 50px;
-            min-width: 50px;
-
-
+          .socials{
+            margin: 40px 0 0;
+            width: 100%;
           }
-          .row {
-            padding: 0;
+          #connect {
+            margin-bottom: 50px;
           }
-         
+          .social-medias {
+            margin: 0 auto;
+          }
+          
         }
 
 button{
@@ -270,8 +265,8 @@ button{
 
 .contacts .container p{
           position: relative;
-          left: 15px;
-          margin-top: 50px;
+          right: 70px
+
 }
 
 
@@ -478,4 +473,20 @@ button{
 }
 a {
   text-decoration: none;
+}
+
+.socials {
+  margin: 0 auto
+}
+
+#connect {
+  position: relative;
+  margin-right: 161px;
+
+}
+.startInvesting{
+  position: relative;
+  left: 13px
+
+
 }
