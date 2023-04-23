@@ -3,6 +3,15 @@ const chatBody = document.querySelector(".chat-body");
 const txtInput = document.querySelector("#txtInput");
 const send = document.querySelector(".send");
 const loadingEle =document.querySelector(".loading");
+const exitButton = document.getElementById("exit-chat");
+
+
+exitButton.addEventListener("click", ()=> {
+        
+                    $(".contuiner").toggleClass("activez");
+          
+
+});
 
 send.addEventListener("click", () => renderUserMessage())
 

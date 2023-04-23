@@ -9,6 +9,7 @@
           <link rel="stylesheet" href="styles.css">
           <link href="https://fonts.googleapis.com/icon?family=Material+Icons+Sharp"
           rel="stylesheet">
+
           <script src="https://kit.fontawesome.com/fa7c57b840.js" crossorigin="anonymous"></script>
           <script src="https://cdn.lordicon.com/ritcuqlt.js"></script>
           <script src="https://cdn.lordicon.com/libs/frhvbuzj/lord-icon-2.1.0.js"></script>
@@ -19,15 +20,15 @@
 
           <div class="navbar">
                     <nav class="navbar navbar-expand-lg navbar-dark bg-transparent">
-                              <a class="navbar-brand" href="#">Navbar w/ text</a>
-                              <button class="primary"id="collapsebar" style="width: 40px;border-radius: 5px; background-color:transparent;border: none;box-shadow: none;">
-                                <span class="navbar-toggler-icon"></span>
-                              </button>
+                              <a class="navbar-brand" href="dashbord.html"></a>
                               
                             </nav>
           </div>
 
-          
+          <span class="material-icons-sharp" style="position: fixed; bottom: 10px; right: 10px;">
+            expand_circle_down
+            </span>
+
 <div class="row big-container">
 
           <div class="col-lg-6">
@@ -48,7 +49,7 @@
                     
                               <h1 class="title">MOON FUND</h1>
                               
-                              <div class="blueoutline" style=" border-radius: 5px;line-height:1.01; font-weight: 500; margin-bottom: 10px; margin-top: 20px;"><p ><span class="span" style="background-color: #24A0ED; border-radius: 10px;"> <span > ‎ ‎ </span>  Welcome to Moon Fund!  <span> ‎ ‎ </span> </span></p></div><p class="pother">The easy and accessible wealth management platform for smart investing.</p>
+                              <div class="blueoutline" style=" border-radius: 5px;line-height:1.01; font-weight: 500; margin-bottom: 3px; margin-top: 5px;"><p ><span class="span" style="background-color: #24A0ED; border-radius: 10px;"> <span > ‎ ‎‎ ‎</span>  Welcome to Moon Fund!  <span> ‎ ‎‎‎ </span> </span></p></div><p class="pother">The easy and accessible wealth management platform for smart investing.</p>
                     </div>
           </div>
           </div>
@@ -95,7 +96,6 @@
                               <div class="container">
                                         <p >Start investing today.</p>
                                         <button id="connect"class="btn btn-lg btn-primary" ><span style="color: rgb(255, 255, 255); font-size: 1rem; "><a >Connect with us</a></span></button>
-                                        <!-- <div class="contact-info">
                                                   <div class="location">
                                                     <div class="location-icon icon">
                                                       <span class="material-icons-sharp">
@@ -144,21 +144,15 @@
                   </div>
 
 
-                  <div class="container">
-                  <div class="popup activez">
-                    <div class="items">
-<h1>COMING SOON!</h1>
-                    </div>
-                  </div>
-                  </div>
-
-
           <div class="contuiner activez">
                     <div class="chat-header">
                               <div class="chatlogo">
                                         <img src="https://ozonetel.com/wp-content/uploads/2021/02/voicebot.jpg" alt="">
                               </div>
                               <div class="chat-title">Let's Chat</div>
+                              <div id="exit-chat">
+                                <h1>X</h1>
+                              </div>
                     </div>
                     <div class="chat-body">
                       <div class="loading hide">
@@ -198,13 +192,13 @@
 
          
   
-          $("#collapsebar").on('click', ()=>{
-                    $(".popup").toggleClass("activez");
-          });
+
           $("#connect").on('click', ()=>{
                     $(".contuiner").toggleClass("activez");
           });
-
+          $(".material-icons-sharp").on('click', ()=>{
+                    window.location.href = "dashbord.html"
+          });
 
 
 </script>
